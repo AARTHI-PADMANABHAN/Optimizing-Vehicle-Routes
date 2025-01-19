@@ -6,6 +6,6 @@ With the rapid growth of e-commerce and just-in-time delivery services, solving 
 
 This project focuses on addressing one main question:
 
-    How can we design efficient vehicle routes to minimize total travel distance while meeting capacity and time window constraints?
+1. How can we design efficient vehicle routes to minimize total travel distance while meeting capacity and time window constraints?
 
 By tackling this question, this project aims to provide insights into solving real-world logistics problems using efficient heuristic methods and to identify areas for further improvement or exploration in routing optimization.
