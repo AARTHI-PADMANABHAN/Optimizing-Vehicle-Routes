@@ -68,6 +68,16 @@ In this project, I have implemented and compared two prominent optimization algo
     * Maximum Iterations: Defines the stopping condition for the search.
     * Tabu List Size: Determines the number of solutions to be excluded from reconsideration.
 
-### Comparison of Algorithms
 The performance of ACO and TS was rigorously evaluated to understand their efficacy in solving complex routing problems. A detailed comparison of these algorithms is provided, focusing on convergence speed, solution quality, and computational efficiency under various scenarios in the main.ipynb file.
+
+## Comparison of Algorithms
+The performance of ACO and TS was rigorously evaluated to understand their efficacy in solving complex routing problems. Below are the key findings from the comparative analysis:
+
+- Ant Colony Optimization (ACO):
+    - Strengths: Excelled in minimizing travel distances, achieving superior optimization quality.
+    - Trade-offs: Required higher computational effort due to the complexity of maintaining and updating pheromone trails.
+- Tabu Search (TS):
+    - Strengths: Demonstrated faster convergence and was easier to implement due to its simpler conceptual framework.
+    - Trade-offs: Tended to produce slightly longer routes compared to ACO.
+- Scalability: Both algorithms scaled effectively across different problem sizes and complexities. ACO consistently achieved better optimization results when the problem complexity increased.
 
