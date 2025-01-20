@@ -49,3 +49,25 @@ Generated datasets are saved as Pickle files and are structured in named tuples 
 * For CVRP: depot_loc, node_loc, demand, capacity.
 * For CVRPTW: Adds depot_tw, node_tw, durations, service_window, time_factor.
 
+## Optimization Algorithms Implemented
+In this project, I have implemented and compared two prominent optimization algorithms to identify the most efficient solutions for our problem domain. Below are details on the algorithms and the specific parameters that were tuned during experiments:
+
+1. Ant Colony Optimization (ACO)
+Inspiration: Modeled after the foraging behavior of ants.
+Mechanism: Utilizes pheromone trails and probabilistic exploration to construct efficient routes.
+Parameters Tuned:
+* alpha: Influence of pheromone trails.
+* beta: Influence of heuristic information.
+* rho: Rate of pheromone evaporation.
+* q: Factor of pheromone deposit.
+
+2. Tabu Search (TS)
+Description: A metaheuristic that guides a local heuristic search procedure to explore the solution space beyond local optimality.
+Mechanism: Employs a Tabu List to prevent cycling back to recently visited solutions, encouraging exploration of new areas.
+Parameters Tuned:
+* Maximum Iterations: Defines the stopping condition for the search.
+* Tabu List Size: Determines the number of solutions to be excluded from reconsideration.
+
+### Comparison of Algorithms
+The performance of ACO and TS was rigorously evaluated to understand their efficacy in solving complex routing problems. A detailed comparison of these algorithms is provided, focusing on convergence speed, solution quality, and computational efficiency under various scenarios in the main.ipynb file.
+
