@@ -39,7 +39,7 @@ The script is executed via the command line, where you can specify various param
 ### Example Command
 To generate datasets, use the following command template:
 
-python data_generator.py --dir ./data --name testset --problem cvrp --size 1000 --graph_sizes 20 50 100 --seed 42
+    python data_generator.py --dir ./data --name testset --problem cvrp --size 1000 --graph_sizes 20 50 100 --seed 42
 
 This command generates datasets for the CVRP problem with 1000 instances each for problem sizes of 20, 50, and 100, using a seed of 42 for random number generation, and saves them in the ./data/cvrp directory.
 
